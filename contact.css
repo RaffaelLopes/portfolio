@@ -63,6 +63,10 @@ nav a:hover {
     color: #5BBE42;
 }
 
+form {
+	margin: 30px 0;
+}
+
 .contact-form input{
     width: 100%;
     padding: 8px 0;
@@ -73,10 +77,35 @@ nav a:hover {
     height: 100px;
 }
 
+.input-padrao{
+	display:  block;
+	margin:  0 0 20px;
+	padding:  10px 25px;
+	width:  50%;
+}
+
+#Email{
+    margin:  0 0 20px;
+    width:  50%;
+    padding:  10px 25px;
+    display:  block;
+}
+
 button {
     color: black;
-    background-color: white;
+    background-color: #f5f8f4;
     border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    font-weight: bold;
+    font-size: 15px;
     width: 100px;
     height: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+	background: #5BBE42;
+	transform:  scale(1.2);
+
 }
