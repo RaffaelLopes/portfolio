@@ -72,3 +72,11 @@ nav a {
 nav a:hover{
     color:#5BBE42;
 }
+ .copyright{
+	color:  #FFFFFF;
+	font-size: 10px;
+	margin:  5px 0 0; 
+    text-align: center;
+    
+
+}
